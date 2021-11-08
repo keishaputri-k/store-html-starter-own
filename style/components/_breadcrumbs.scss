@@ -1,0 +1,24 @@
+// TODO 16 Breadcrumb styling
+.store-breadcrumbs{
+    // bawaan bootstrap
+    .breadcrumb{
+        background: transparent;
+        padding: 0 ;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .breadcrumb-item + .breadcrumb-item::before{
+        padding-left:1.5rem;
+        padding-right:1.5rem;
+    }
+ 
+    .breadcrumb-item.active{
+        font-weight: 300;
+        color: #E3E2E4;
+    }
+    a{
+        color: #E3E2E4;
+    }
+}
+
